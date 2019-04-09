@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#00fa9a"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.brayo.mealorderingmobileapplication.NavDrawer">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/food"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+            <TextView
+                android:id="@+id/foodDescription"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:gravity="start"
+                android:text="@string/name"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/quantity"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/quantity"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/price"
+                android:layout_width="80dp"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:textSize="20sp"
+                android:text="@string/price"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+       <ListView
+           android:id="@+id/listView"
+           android:layout_below="@id/food"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:clipToPadding="false"
+           android:scrollbars="vertical"/>
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

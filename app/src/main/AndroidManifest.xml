@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.brayo.mealorderingmobileapplication">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity" />
+        <activity
+            android:name=".NavDrawer"
+            android:label="@string/title_activity_nav_drawer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Mdetail.Lunch" />
+        <activity android:name=".Mdetail.Breakfast" />
+        <activity android:name=".Mdetail.Supper" />
+        <activity android:name=".Mbreakfast.Sausage" />
+        <activity android:name=".Mbreakfast.Chap" />
+        <activity android:name=".Mbreakfast.Bread" />
+        <activity android:name=".Mlunch.Beef" />
+        <activity android:name=".Cart" />
+        <activity android:name=".Mbreakfast.Mandazi" />
+        <activity android:name=".Mlunch.Flour" />
+        <activity android:name=".Mlunch.Rice" />
+        <activity android:name=".Mlunch.Beans" />
+        <activity android:name=".Mlunch.Kab" />
+        <activity android:name=".Mlunch.Chap" />
+        <activity android:name=".Mbreakfast.Tea" />
+        <activity android:name=".Mbreakfast.Milk" />
+        <activity android:name=".PasswordActivity" />
+    </application>
+
+</manifest>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00fa9a">
+
+    <android.support.v7.widget.LinearLayoutCompat
+
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayoutCompat">
+
+        <Button
+            android:backgroundTint="#0000ff"
+            android:background="@drawable/button_rg"
+            android:id="@+id/buttonBreakfast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:onClick="buttonBreakfast"
+            android:layout_marginTop="10dp"
+            android:text="BREAKFAST" />
+
+
+        <Button
+            android:backgroundTint="#0000ff"
+            android:background="@drawable/button_rg"
+            android:id="@+id/buttonLunch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:onClick="buttonLunch"
+            android:layout_marginTop="50dp"
+            android:text="LUNCH" />
+
+        <Button
+            android:backgroundTint="#0000ff"
+            android:background="@drawable/button_rg"
+            android:id="@+id/buttonSupper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:onClick="buttonSupper"
+            android:layout_marginTop="50dp"
+            android:text="SUPPER" />
+
+
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+</RelativeLayout>

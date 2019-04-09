@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "570957615297",
+    "firebase_url": "https://meal-ordering-mobile-app.firebaseio.com",
+    "project_id": "meal-ordering-mobile-app",
+    "storage_bucket": "meal-ordering-mobile-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:570957615297:android:aa9ed4af7b244db3",
+        "android_client_info": {
+          "package_name": "com.example.brayo.mealorderingmobileapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "570957615297-9r5qbajkpvlb8megphrudlthdnbs3vlq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.brayo.mealorderingmobileapplication",
+            "certificate_hash": "a09e2e0c9ab5d79aa9efc6c2f6eb659ae3a681cc"
+          }
+        },
+        {
+          "client_id": "570957615297-sun35g23lj3sgf07imp25j65i273mvre.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA45QASeSp5Vm0-YWDHKwOYbnXSA9aaZAw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "570957615297-sun35g23lj3sgf07imp25j65i273mvre.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

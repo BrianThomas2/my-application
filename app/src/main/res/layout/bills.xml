@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#00fa9a"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/contact_form_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="5dp"
+        android:text="Payment Options"
+        android:textColor="#FF0000"
+        android:textSize="20sp"
+        android:typeface="serif" />
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#0000FF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="First Option"
+        android:textSize="25sp" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Go to Safaricom SIM Tool Kit,select M-Pesa menu,select Lipa na M-Pesa "
+            android:textSize="16sp" />
+
+        <TextView
+            android:paddingTop="20dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Pay Bill"
+            android:textSize="16sp" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Enter Business No"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Enter Account No"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Amount and press OK"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter your M-Pesa pin and press OK"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FF0000"
+        android:text="NB:Business number is:713602"
+        android:textSize="16sp" />
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#0000FF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Second Option"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Students can pay cash on delivery after being served at their respective tables"
+        android:textSize="16sp" />
+
+
+</LinearLayout>
